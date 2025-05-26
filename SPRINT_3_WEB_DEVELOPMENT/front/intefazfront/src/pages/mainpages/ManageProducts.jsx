@@ -6,7 +6,7 @@ function Dashbord() {
     const [editingProductId, setEditingProductId] = useState(null);
     const [editedProduct, setEditedProduct] = useState({});
 
-    const baseURL = 'http://localhost:8080'; // change if needed
+    const baseURL = 'http://localhost:8080'; 
 
     useEffect(() => {
         fetchProducts();
